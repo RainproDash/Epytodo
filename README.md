@@ -30,5 +30,5 @@ route | method | protection | description
 /todos/:id|PUT|oui|mets à jour une tâche
 /todos/:id|DELETE|oui|supprime une tâche
 
-Dans ce projet, les routes sont protéjéent et accessible uniquement aux utilisateurs connectés.  
+Dans ce projet, les routes sont protéjées et accessibles uniquement aux utilisateurs connectés.  
 Pour ce faire, les routes protégées recevent un JWT (JSON Web Token) valide dans l'en-tête.
